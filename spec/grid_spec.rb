@@ -8,7 +8,7 @@ describe Grid do
   subject { described_class.new width, height, density }
 
   describe '::new' do
-    it 'populates and finds neighbors' do
+    pending 'populates and finds neighbors' do
       expect(subject).to receive(:populate).and_return(nil)
       expect(subject).to receive(:find_neighbors).and_return(nil)
 
